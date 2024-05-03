@@ -39,6 +39,11 @@ h1 {
     align-items: center;
 
 }
+.medium {
+    color: white; /* Set text color to white */
+    text-align: center; /* Center-align text */
+}
+
 
 footer {
     position: fixed;
@@ -244,4 +249,45 @@ button[type="submit"]:hover {
 /* Style for the form labels */
 .form-group label {
     color: white; /* Set the color to white */
+}
+.container1 {
+    width: 80%;
+    margin: auto;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px; /* Adjust the space between rows */
+
+}
+
+.item-container1 {
+    display: flex;
+    margin-left: 20px; /* Adjust the margin to move the content closer to the left */
+    margin-top: 20px; /* Adjust the margin to move the content lower */
+    width: 90%; /* Adjust the width of the container */
+}
+
+.image-container1 img  {
+    width: 300px;
+    height: 200px;
+    object-fit: cover; /* Ensure images maintain aspect ratio and cover the container */
+}
+
+.text-box1 {
+    width: 50%; /* Adjust the width of the text box */
+}
+
+h3 {
+    font-size: 18px; /* Adjust the font size of the heading */
+}
+
+p {
+    font-size: 14px; /* Adjust the font size of the paragraph */
+}
+
+a {
+    text-decoration: none; /* Remove underline from all links */
+    color: inherit; /* Inherit color from parent element */
 }
